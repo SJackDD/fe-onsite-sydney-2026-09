@@ -30,9 +30,9 @@ The arc of the afternoon, in one line: at the start your application is running 
 |---|---|
 | 01 | Getting data into Datadog |
 | 02 | Introduction to observability and APM |
-| 03 | Break |
-| 04 | Reviewing what arrived |
-| 05 | Where the time goes |
+| 03 | Reviewing what arrived |
+| 04 | Where the time goes |
+| 05 | Break |
 | 06 | Building dashboards |
 | 07 | Creating monitors |
 | 08 | Wrap and resources |
