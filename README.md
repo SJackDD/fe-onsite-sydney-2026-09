@@ -44,8 +44,8 @@ The arc of the afternoon, in one line: at the start your application is running 
 
 Two reference documents, written to be used at your desk against your own services rather than read once and forgotten.
 
-**[Building a dashboard people actually read](./dashboard-structure.md)**
-The structure we teach in the session, written out properly. Skeleton first, the repeatable group unit, above and below the fold, and the reasoning behind each choice.
+**[How to structure a Datadog dashboard](./dashboard-structure.md)**
+The structure we teach in the session, written out properly. Skeleton first, the repeatable group unit, above and below the fold, and the reasoning behind each choice. Ends with a checklist you can run over a dashboard you already have.
 
 **[Monitor notification template](./monitor-notification-template.md)**
 The four-section notification structure, as copy-and-paste templates with the conditional syntax filled in. Start with one monitor, then apply it to the rest.
