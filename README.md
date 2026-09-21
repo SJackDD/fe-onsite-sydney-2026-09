@@ -56,7 +56,7 @@ The four-section notification structure, as copy-and-paste templates with the co
 
 The workshop we used is a Datadog Learning Center lab. It runs entirely in a browser, spins up a Kubernetes cluster with a demo application, and gives you your own Datadog training organisation.
 
-**Workshop link:** `[WORKSHOP LINK]`
+**Workshop link:** https://dtdg.co/3Q5k43M
 
 **Two things worth knowing about it:**
 
