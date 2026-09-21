@@ -70,7 +70,7 @@ The workshop we used is a Datadog Learning Center lab. It runs entirely in a bro
 
 ## Feedback
 
-**[Session feedback survey](https://forms.gle/Abd8skt7HiEZzyrY9)** — https://forms.gle/Abd8skt7HiEZzyrY9
+**[Session feedback survey](https://forms.gle/RHXfRk7PS5sh9oeG6)** — https://forms.gle/RHXfRk7PS5sh9oeG6
 
 Two minutes, and it genuinely shapes the next one. If you attended, please fill it in.
 
