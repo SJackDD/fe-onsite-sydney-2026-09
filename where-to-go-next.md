@@ -19,7 +19,7 @@ If you only do one thing, do this. It covers navigation, tagging, metrics, monit
 ### Dashboards and notebooks
 
 - **[Introduction to Dashboards](https://learn.datadoghq.com/courses/intro-dashboards)** — covers most of the dashboard block, at a slower pace
-- **[Building Better Dashboards](https://learn.datadoghq.com/courses/building-better-dashboards)** — the design side, if [our dashboard guide](./dashboard-structure.md) left you wanting more
+- **[Building Better Dashboards](https://learn.datadoghq.com/courses/building-better-dashboards)** — the design side, if [our dashboard guide](./how-to-structure-a-datadog-dashboard.md) left you wanting more
 - **[Creating Graph Widgets](https://learn.datadoghq.com/courses/dashboard-graph-widgets)** — timeseries, query value, top list, table and distribution, and when each one is the right answer
 - **[Table, List, SLO and Architecture Widgets](https://learn.datadoghq.com/courses/discovering-table-list-widgets)** — the widgets we didn't get to
 - **[Getting Started with Notebooks](https://learn.datadoghq.com/courses/getting-started-with-notebooks)** — we mentioned notebooks in passing. This is the proper version
@@ -27,7 +27,7 @@ If you only do one thing, do this. It covers navigation, tagging, metrics, monit
 ### Monitors and alerting
 
 - **[Getting Started with Monitors](https://learn.datadoghq.com/courses/getting-started-monitors)** — start here if monitors are new to you. Creating and configuring them, the monitor types, and the status page
-- **[Customize Alert Monitor Notifications](https://learn.datadoghq.com/courses/alert-monitor-notifications)** — the closest course to [our notification guide](./monitor-notification-template.md), with a lab where you draft and test a real notification
+- **[Customize Alert Monitor Notifications](https://learn.datadoghq.com/courses/alert-monitor-notifications)** — the closest course to [our notification guide](./how-to-write-a-datadog-monitor-notification.md), with a lab where you draft and test a real notification
 - **[APM Monitors and Alerting](https://learn.datadoghq.com/courses/apm-monitors-and-alerting)** — monitors on traces specifically, including tuning them so they don't cry wolf
 - **[All monitors and alerting courses](https://learn.datadoghq.com/collections/monitors-alerting)**
 
