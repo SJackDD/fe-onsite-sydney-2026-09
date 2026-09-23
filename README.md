@@ -44,10 +44,10 @@ The arc of the afternoon, in one line: at the start your application is running 
 
 Written to be used at your desk against your own services rather than read once and forgotten.
 
-**[How to structure a Datadog dashboard](./dashboard-structure.md)**
+**[How to structure a Datadog dashboard](./how-to-structure-a-datadog-dashboard.md)**
 The structure we teach in the session, written out properly. Skeleton first, the repeatable group unit, above and below the fold, and the reasoning behind each choice. Ends with a checklist you can run over a dashboard you already have.
 
-**[How to write a Datadog monitor notification](./monitor-notification-template.md)**
+**[How to write a Datadog monitor notification](./how-to-write-a-datadog-monitor-notification.md)**
 The four-section notification structure, as copy-and-paste templates with the conditional syntax filled in. Covers routing, formatting, choosing a threshold, and the rule that stops a channel getting muted. Ends with a checklist to run before you publish a monitor.
 
 **[Questions from the session](./questions-from-the-session.md)**
