@@ -1,4 +1,4 @@
-# Building a dashboard people actually read
+# How to structure a Datadog dashboard
 
 The structure we teach in the session, written out so you can use it at your desk against your own services.
 
@@ -266,3 +266,4 @@ Full reference: [Notebooks](https://docs.datadoghq.com/notebooks/).
 - [Widgets reference](https://docs.datadoghq.com/dashboards/widgets/) in the documentation
 
 Learning Center courses are free and each one gives you a demo account with sample data, so you can build and experiment without creating noise in your own organisation.
+
