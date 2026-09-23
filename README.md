@@ -2,7 +2,7 @@
 
 Everything worth taking away from the session, in one place.
 
-If you attended: this is what we covered, what you can still get to, and the two reference documents we said we would leave you with. If you did not: it is still readable, it will just make more sense if you have used Datadog once or twice.
+If you attended: this is what we covered, the reference material we said we would leave you with, and the answers to what came up in the room. If you did not: it is still readable, it will just make more sense if you have used Datadog once or twice.
 
 ---
 
@@ -42,7 +42,7 @@ The arc of the afternoon, in one line: at the start your application is running 
 
 ## Take these with you
 
-Two reference documents, written to be used at your desk against your own services rather than read once and forgotten.
+Written to be used at your desk against your own services rather than read once and forgotten.
 
 **[How to structure a Datadog dashboard](./dashboard-structure.md)**
 The structure we teach in the session, written out properly. Skeleton first, the repeatable group unit, above and below the fold, and the reasoning behind each choice. Ends with a checklist you can run over a dashboard you already have.
@@ -50,21 +50,23 @@ The structure we teach in the session, written out properly. Skeleton first, the
 **[How to write a Datadog monitor notification](./monitor-notification-template.md)**
 The four-section notification structure, as copy-and-paste templates with the conditional syntax filled in. Covers routing, formatting, choosing a threshold, and the rule that stops a channel getting muted. Ends with a checklist to run before you publish a monitor.
 
+**[Questions from the session](./questions-from-the-session.md)**
+The topics that came up in the room, answered properly — what instrumented code looks like, breaking a monolith down below the service level, catching front-end errors, spotting a version tag that didn't get updated, and pointing a monitor at one service.
+
+**[Where to go next](./where-to-go-next.md)**
+Courses, learning paths, certifications and the documentation worth actually reading. Free, self-paced, and each course comes with a demo account so you can experiment without making a mess of your own.
+
 ---
 
-## The lab
+## What happened to the lab
 
-The workshop we used is a Datadog Learning Center lab. It runs entirely in a browser, spins up a Kubernetes cluster with a demo application, and gives you your own Datadog training organisation.
-
-**Workshop link:** https://dtdg.co/3Q5k43M
-
-**Two things worth knowing about it:**
+The workshop ran in a Datadog Learning Center lab — a browser-based environment that spun up a Kubernetes cluster with a demo application and gave each of you your own Datadog training organisation.
 
 **Your Datadog organisation keeps everything you built.** The dashboard and the monitor are still there. What stops is the data flowing into them, because the cluster behind it is torn down when the lab session ends.
 
-**The lab relaunches, but it starts clean every time.** Your access runs for a limited window after the session, and each relaunch builds a fresh cluster with nothing you did previously in it. So anything hands-on means instrumenting the application again first. Worth setting aside an hour rather than ten minutes.
+**The lab relaunches, but it starts clean every time.** Your access runs for a limited window after the session, and each relaunch builds a fresh cluster with nothing you did previously in it. So anything hands-on means instrumenting the application again first — worth setting aside an hour rather than ten minutes.
 
-**The link above is specific to our session.** It is not a permanent, publicly available environment, and it will not stay open indefinitely. Once it lapses, the Learning Center has self-paced equivalents that cover the same ground, listed below.
+**The link we used on the day was specific to our session** and is deliberately not repeated here, because it will lapse. The Learning Center has self-paced equivalents covering the same ground — see [where to go next](./where-to-go-next.md).
 
 ---
 
@@ -76,38 +78,9 @@ Two minutes, and it genuinely shapes the next one. If you attended, please fill 
 
 ---
 
-## Where to go next
-
-**Learning Center** — [learn.datadoghq.com](https://learn.datadoghq.com)
-Free, self-paced courses and labs. Each one gives you a demo account with sample data, so you can build and experiment without creating noise in your own organisation.
-
-Closest to what we covered:
-
-- [Introduction to Dashboards](https://learn.datadoghq.com/courses/intro-dashboards) — covers most of the dashboard block
-- [Building Better Dashboards](https://learn.datadoghq.com/courses/building-better-dashboards)
-- [Creating Graph Widgets](https://learn.datadoghq.com/courses/dashboard-graph-widgets) — timeseries, query value, top list, table, distribution
-- [Table, List, SLO and Architecture Widgets](https://learn.datadoghq.com/courses/discovering-table-list-widgets)
-- [Getting Started with Notebooks](https://learn.datadoghq.com/courses/getting-started-with-notebooks)
-- [Customize Alert Monitor Notifications](https://learn.datadoghq.com/courses/alert-monitor-notifications) — the monitor block, in more depth
-
-**[Certifications](https://learn.datadoghq.com/pages/certification)** and **[learning paths](https://learn.datadoghq.com/pages/learning-paths)** — proctored exams and curated course sequences, both with digital badges.
-
-**Documentation** — [docs.datadoghq.com](https://docs.datadoghq.com)
-The reference for everything we touched. The pages that come up most after this session:
-
-- [Dashboard template variables](https://docs.datadoghq.com/dashboards/template_variables/)
-- [Monitor notification variables](https://docs.datadoghq.com/monitors/notify/variables/)
-- [Notebooks](https://docs.datadoghq.com/notebooks/)
-
-**Blog** — [datadoghq.com/blog](https://www.datadoghq.com/blog)
-
-**YouTube** — [youtube.com/@datadog](https://www.youtube.com/@datadog)
-
----
-
 ## A few notes
 
-**The slides are not here.** They are visual aids for the room and they do not carry the content. The two documents above do, and they are better than the slides for the purpose.
+**The slides are not here.** They are visual aids for the room and they do not carry the content. The documents above do, and they are better than the slides for the purpose.
 
 **Ask your Datadog account team** about running this for more of your team, or about the sessions that go deeper on individual products.
 
