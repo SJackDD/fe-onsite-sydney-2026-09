@@ -372,14 +372,26 @@ Then use the **Preview** tab before publishing. It renders the message as it wil
 
 ## Going further
 
+### Hands-on courses
+
+Free, self-paced, and each one gives you a demo account with sample data — so you can build and break things without creating noise in your own organisation.
+
+- **[Getting Started with Monitors](https://learn.datadoghq.com/courses/getting-started-monitors)** — start here if monitors are new. Creating and configuring them, the monitor types, and the status page
+- **[Customize Alert Monitor Notifications](https://learn.datadoghq.com/courses/alert-monitor-notifications)** — the closest course to this document. Conditional, tag and template variables, with a lab where you draft and test a notification
+- **[APM Monitors and Alerting](https://learn.datadoghq.com/courses/apm-monitors-and-alerting)** — creating, modifying and tuning APM monitors specifically
+- **[All monitors and alerting courses](https://learn.datadoghq.com/collections/monitors-alerting)** — the full collection
+- **[Core Skills Learning Path](https://learn.datadoghq.com/bundles/core-skills-learning-path)** — navigation, tagging, metrics, monitors and dashboards as one sequence, with a badge at the end
+
+### Documentation
+
 - [Notification variables](https://docs.datadoghq.com/monitors/notify/variables/) — the full reference for everything above
 - [Template variable evaluation](https://docs.datadoghq.com/monitors/guide/template-variable-evaluation/) — arithmetic and formatting functions
 - [Monitor notifications](https://docs.datadoghq.com/monitors/notify/) — the wider notification setup
 - [Monitor Quality](https://docs.datadoghq.com/monitors/quality/) — the seven issues it finds, in detail
 - [Monitor List](https://docs.datadoghq.com/monitors/manage/) — searching, bulk tag editing, bulk recipient editing
 - [Notebooks](https://docs.datadoghq.com/notebooks/) — for the long-form runbooks
+
+### Worth reading
+
 - [How to audit and clean up monitors effectively](https://www.datadoghq.com/blog/how-to-audit-and-clean-up-monitors/) — a walkthrough of the review process
 - [Best practices for tagging your monitors](https://www.datadoghq.com/blog/tagging-best-practices-monitors/)
-- [Customize Alert Monitor Notifications](https://learn.datadoghq.com/courses/alert-monitor-notifications) — a free Learning Center course covering this ground with hands-on exercises
-
-Learning Center courses give you a demo account with sample data, so you can build and break things without creating noise in your own organisation.
