@@ -61,7 +61,7 @@ There is an equivalent for the front end too — **[RUM Deployment Tracking](htt
 
 ## How do you point a monitor at one specific service?
 
-Covered properly in [the monitor notification guide](./monitor-notification-template.md), but the short version: the query has a scope, and the scope is where you filter. On an APM monitor you pick the service from a dropdown and add tags like `env:prod` in the filter field.
+Covered properly in [the monitor notification guide](./how-to-write-a-datadog-monitor-notification.md), but the short version: the query has a scope, and the scope is where you filter. On an APM monitor you pick the service from a dropdown and add tags like `env:prod` in the filter field.
 
 The part people miss is that **scope and grouping are two different decisions**. Scope decides what the monitor watches. Grouping decides whether you get one alert for everything or one alert per service — and it also determines which variables you can use in the notification. `{{service.name}}` only works if you grouped by service.
 
