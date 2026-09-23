@@ -60,13 +60,13 @@ Courses, learning paths, certifications and the documentation worth actually rea
 
 ## What happened to the lab
 
-The workshop ran in a Datadog Learning Center lab — a browser-based environment that spun up a Kubernetes cluster with a demo application and gave each of you your own Datadog training organisation.
+The workshop ran in a Datadog Learning Center lab — a browser-based environment that spun up a Kubernetes cluster with a demo application and a Datadog training organisation for each attendee.
 
-**Your Datadog organisation keeps everything you built.** The dashboard and the monitor are still there. What stops is the data flowing into them, because the cluster behind it is torn down when the lab session ends.
+**All of it existed only for the session.** The cluster, the demo application and the training organisation have gone, and the lab cannot be restarted. So the dashboard and the monitor you built during the afternoon are not somewhere you can return to.
 
-**The lab relaunches, but it starts clean every time.** Your access runs for a limited window after the session, and each relaunch builds a fresh cluster with nothing you did previously in it. So anything hands-on means instrumenting the application again first — worth setting aside an hour rather than ten minutes.
+That is why the guides above exist. The thing worth keeping was never that particular dashboard — it was being able to build the equivalent against your own services, which is what they walk through.
 
-**The link we used on the day was specific to our session** and is deliberately not repeated here, because it will lapse. The Learning Center has self-paced equivalents covering the same ground — see [where to go next](./where-to-go-next.md).
+If you want hands-on practice in a throwaway environment, the Learning Center courses in [where to go next](./where-to-go-next.md) each come with their own demo account and sample data, and those you can revisit.
 
 ---
 
